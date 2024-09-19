@@ -16,11 +16,11 @@ public class Chef {
 	}
 	
 	public void parler(String texte) {
-		System.out.println(prendreParole() + "«" + texte + "»");
+		System.out.println(prendreParole() + "« " + texte + " »");
 	}
 	
 	private String prendreParole() {
-		return "Le chef" + nom + "du village" + village.getNom() +":";
+		return "Le chef " + nom + "du village" + village.getNom() +" : ";
 	}
 
 	public void frapper(Romain romain) {
