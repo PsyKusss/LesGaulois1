@@ -25,4 +25,8 @@ public class Musee {
     public Trophee[] getTrophees() {
         return trophees;
     }
+    
+    public void extraireInstructionsOCaml() {
+		
+	}
 }

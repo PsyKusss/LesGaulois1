@@ -44,7 +44,7 @@ public class Romain {
 	
 	public void sEquiper(Equipement equipement) {
         switch (nbEquipement) {
-            case 0:
+            case 2:
             	System.out.println("Le soldat " + nom + " est déjà bien protégé !");;
                 break;
             case 1:
@@ -54,7 +54,7 @@ public class Romain {
                     ajouterEquipement(equipement);
                 }
                 break;
-            case 2:
+            default:
                 ajouterEquipement(equipement);
                 break;
         }
