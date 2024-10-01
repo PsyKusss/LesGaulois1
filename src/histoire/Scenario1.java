@@ -3,7 +3,7 @@ import personnages.Gaulois;
 import personnages.Romain;
 import personnages.Druide;
 
-public class Scenario {
+public class Scenario1 {
 
 //	public static void main(String[] args) {
 //		Gaulois asterix = new Gaulois("Astérix",8);
